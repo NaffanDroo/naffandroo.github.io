@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{52:function(e,n,t){"use strict";t.r(n);var o=t(0),a=t.n(o);n.default=function(){return a.a.createElement("div",{style:{textAlign:"center"}},a.a.createElement("h1",null,"Welcome to Nathan's personal site"),a.a.createElement("p",null,"More to come soon!..."))}}}]);

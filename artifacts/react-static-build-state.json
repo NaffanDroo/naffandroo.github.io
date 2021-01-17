@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/Users/nathan/Repositories/github/NaffanDroo/naffandroo.github.io/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/nathan/Repositories/github/NaffanDroo/naffandroo.github.io/src/pages"
+      }
+    ],
+    "/Users/nathan/Repositories/github/NaffanDroo/naffandroo.github.io/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/nathan/Repositories/github/NaffanDroo/naffandroo.github.io/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/nathan/Repositories/github/NaffanDroo/naffandroo.github.io"
+  ],
+  "paths": {
+    "ROOT": "/Users/nathan/Repositories/github/NaffanDroo/naffandroo.github.io",
+    "SRC": "/Users/nathan/Repositories/github/NaffanDroo/naffandroo.github.io/src",
+    "DIST": "/Users/nathan/Repositories/github/NaffanDroo/naffandroo.github.io/dist",
+    "ASSETS": "/Users/nathan/Repositories/github/NaffanDroo/naffandroo.github.io/dist",
+    "PLUGINS": "/Users/nathan/Repositories/github/NaffanDroo/naffandroo.github.io/plugins",
+    "TEMP": "/Users/nathan/Repositories/github/NaffanDroo/naffandroo.github.io/tmp",
+    "ARTIFACTS": "/Users/nathan/Repositories/github/NaffanDroo/naffandroo.github.io/artifacts",
+    "PUBLIC": "/Users/nathan/Repositories/github/NaffanDroo/naffandroo.github.io/public",
+    "NODE_MODULES": "/Users/nathan/Repositories/github/NaffanDroo/naffandroo.github.io/node_modules",
+    "EXCLUDE_MODULES": "/Users/nathan/Repositories/github/NaffanDroo/naffandroo.github.io/node_modules",
+    "PACKAGE": "/Users/nathan/Repositories/github/NaffanDroo/naffandroo.github.io/package.json",
+    "HTML_TEMPLATE": "/Users/nathan/Repositories/github/NaffanDroo/naffandroo.github.io/dist/index.html",
+    "STATIC_DATA": "/Users/nathan/Repositories/github/NaffanDroo/naffandroo.github.io/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
